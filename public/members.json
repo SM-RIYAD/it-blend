@@ -1,0 +1,44 @@
+[
+    {
+      "name": "John Smith",
+      "profession": "Software Engineer",
+      "experience": "8 years",
+      "description": "Expertise in backend development using Python and Django framework.",
+      "image": "https://img.freepik.com/free-photo/portrait-smiling-handsome-man-eyeglasses_171337-4853.jpg?t=st=1709104734~exp=1709108334~hmac=9d915376aba08b88708eea9d9952fcb8a25f202eb1c061cb8213daf6161850cf&w=1060"
+    },
+    {
+      "name": "Alice Johnson",
+      "profession": "Web Developer",
+      "experience": "6 years",
+      "description": "Specialized in front-end technologies, including HTML, CSS, and JavaScript frameworks.",
+      "image": "https://img.freepik.com/free-photo/handsome-businessman-with-laptop-isolated-white-background_231208-12573.jpg?t=st=1709104887~exp=1709108487~hmac=8c93defc493218a4a369a527dccd75b91488f913448c9396f23307dc725fbdce&w=1060"
+    },
+    {
+      "name": "David Miller",
+      "profession": "UI/UX Designer",
+      "experience": "5 years",
+      "description": "Passionate about creating intuitive and visually appealing user interfaces.",
+      "image": "https://img.freepik.com/free-photo/close-up-caucasian-man-s-portrait-isolated-blue-studio-neon-light_155003-3456.jpg?t=st=1709104767~exp=1709108367~hmac=9f801571b32bac3edf43a30ecf4a716b74329306f3af959d8d3387fa3a696a47&w=1060"
+    },
+    {
+      "name": "Emily Davis",
+      "profession": "Network Administrator",
+      "experience": "7 years",
+      "description": "Skilled in managing and optimizing network infrastructure for smooth operations.",
+      "image": "https://img.freepik.com/free-photo/business-woman-presenting-laptop_23-2147626302.jpg?t=st=1709105049~exp=1709108649~hmac=351505b348bbef2d23cc25c9d989bbce453bef2808443d73efd5a1cac4dfd0fc&w=1060"
+    },
+    {
+      "name": "Michael Brown",
+      "profession": "Project Manager",
+      "experience": "10 years",
+      "description": "Proven track record in successfully leading and delivering complex IT projects.",
+      "image": "https://img.freepik.com/free-photo/indian-young-man-with-laptop-isolated-white-wall_231208-2640.jpg?t=st=1709104980~exp=1709108580~hmac=83e3ceefc6dc739df35307a1d60212c3a91c3107cf4f9fab29de8d20e7cecd64&w=1060"
+    },
+    {
+      "name": "Sophia Clark",
+      "profession": "Quality Assurance Analyst",
+      "experience": "4 years",
+      "description": "Detail-oriented QA professional with a focus on ensuring software quality and reliability.",
+      "image": "https://img.freepik.com/free-psd/portrait-woman-using-laptop-computer_23-2150116868.jpg?t=st=1709105014~exp=1709108614~hmac=b6ebcfaf5d8cfbd8f8149da434b9670780a500d33d16bcbef782596534a27e11&w=1060"
+    }
+  ]

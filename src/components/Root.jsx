@@ -7,11 +7,11 @@ const Root = () => {
 
     const [donation_Count,set_donation_Count]=useState(0);
     return (
-        <div> 
-        <countContext.Provider value={[donation_Count,set_donation_Count]} >
+        <div style={{fontFamily: 'Libre Baskerville'}}> 
+      
             
         <Outlet></Outlet>
-        </countContext.Provider>
+     
         
         </div>
     );

@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import Banner from "../Banner/Banner";
+import Header from "../Header/Header";
+import ServiceCArd from "../Services/ServiceCArd";
+import Services from "../Services/Services";
 
 
 const Home = () => {
@@ -27,7 +30,9 @@ const Home = () => {
   console.log("this is dona data", donations);
   return (
     <div className="  ">
+      <Header></Header>
 <Banner></Banner>
+<Services></Services>
     </div>
   );
 };

@@ -1,28 +1,71 @@
-import { Link, NavLink } from "react-router-dom";
-import "./Header.css";
-const Header = () => {
-  return (
-    <div className="flex lg:flex-row flex-col md:flex-col  mx-20 mt-10  lg:mb-0 md:mb-24">
-      <div className="flex-grow lg:block md:flex md:justify-center">
-        <img src="https://i.ibb.co/QmpXzQn/Logo.png" alt="" />
-      </div>
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
-      <nav className="flex items-center justify-center z-30 lg:mt-0 mt-10 md:mt-10 gap-10 lg:flex-row flex-col md:flex-col">
-        <NavLink to="/">
-          {" "}
-          <p className="font-bold">Home</p>{" "}
-        </NavLink>
-        <NavLink to="/donation">
-          {" "}
-          <p className="font-bold">Donation</p>{" "}
-        </NavLink>
-        <NavLink to="/statistics">
-          {" "}
-          <p className="font-bold">Statistics</p>{" "}
-        </NavLink>
-      </nav>
+
+import "./Header.css";
+
+
+const Header = () => {
+
+
+
+
+
+  const navLinks = (
+    <>
+      <li >
+
+          HOME
+     
+      </li>
+
+      <li>
+   
+          Meals
+
+      </li>
+
+      <li >
+    
+          Upcoming Meals
+      </li>
+    </>
+  );
+
+
+  return (
+    <div className="   ">
+<div className="navbar text-blue-400 font-bold absolute z-50 bg-opacity-30 bg-black   px-20 ">
+  <div className="navbar-start">
+    <div className="dropdown">
+      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>About us</a></li>
+       
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <a className="btn btn-ghost text-xl">IT BLEND</a>
+  </div>
+  <div className="navbar-center hidden lg:flex">
+    <ul className="menu menu-horizontal px-1">
+ 
+      <li><a>About us</a></li>
+       
+       <li><a>Blog</a></li>
+       <li><a>Contact</a></li>
+
+    </ul>
+  </div>
+  <div className="navbar-end">
+    <a className="btn">Button</a>
+  </div>
+</div>
     </div>
   );
 };
 
 export default Header;
+

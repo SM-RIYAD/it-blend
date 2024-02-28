@@ -49,11 +49,11 @@ const Banner = () => {
                     className="input  mt-5 input-bordered border-none rounded-none "
                     required
                   /> */}
-                  <Link to={"/register"}>
+            
                   <button className="btn mt-5  btn-outline rounded-none hover:bg-red-500 w-[200px] h-[50px]  text-white hover:border-none  ">
                     Join Us
                   </button>
-                  </Link>
+              
                
                 </div>
               </div>

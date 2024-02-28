@@ -9,6 +9,7 @@ const Root = () => {
     return (
         <div> 
         <countContext.Provider value={[donation_Count,set_donation_Count]} >
+            
         <Outlet></Outlet>
         </countContext.Provider>
         

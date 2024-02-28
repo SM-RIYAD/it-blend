@@ -5,6 +5,7 @@ import ServiceCArd from "../Services/ServiceCArd";
 import Services from "../Services/Services";
 import Footer from "../Footer/Footer";
 import TeamSection from "../TeamSection/TeamSection";
+import Membership from "../Membership/Membership";
 
 const Home = () => {
   const [searchWord, setSearchWord] = useState("");
@@ -35,6 +36,7 @@ const Home = () => {
 <Banner></Banner>
 <Services></Services>
 <TeamSection></TeamSection>
+<Membership></Membership>
  <Footer></Footer>
     </div>
   );

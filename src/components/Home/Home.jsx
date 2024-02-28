@@ -6,6 +6,8 @@ import Services from "../Services/Services";
 import Footer from "../Footer/Footer";
 import TeamSection from "../TeamSection/TeamSection";
 import Membership from "../Membership/Membership";
+import Subscribe from "../Subscribe/Subscribe";
+import ReviewSection from "../Review/ReviewSection";
 
 const Home = () => {
   const [searchWord, setSearchWord] = useState("");
@@ -36,7 +38,9 @@ const Home = () => {
 <Banner></Banner>
 <Services></Services>
 <TeamSection></TeamSection>
+<Subscribe></Subscribe>
 <Membership></Membership>
+<ReviewSection></ReviewSection>
  <Footer></Footer>
     </div>
   );

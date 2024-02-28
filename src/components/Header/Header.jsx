@@ -60,7 +60,9 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+  <button className="btn mt-5  btn-outline rounded-none hover:bg-blue-500 w-[200px] h-[40px]  text-white hover:border-none  ">
+                    Register
+                  </button>
   </div>
 </div>
     </div>

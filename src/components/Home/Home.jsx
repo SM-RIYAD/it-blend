@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
 import ServiceCArd from "../Services/ServiceCArd";
 import Services from "../Services/Services";
-
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const [searchWord, setSearchWord] = useState("");
@@ -33,6 +33,7 @@ const Home = () => {
       <Header></Header>
 <Banner></Banner>
 <Services></Services>
+ <Footer></Footer>
     </div>
   );
 };

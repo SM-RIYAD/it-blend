@@ -8,6 +8,7 @@ import TeamSection from "../TeamSection/TeamSection";
 import Membership from "../Membership/Membership";
 import Subscribe from "../Subscribe/Subscribe";
 import ReviewSection from "../Review/ReviewSection";
+import FAQ from "../FAQ/FAQ";
 
 const Home = () => {
   const [searchWord, setSearchWord] = useState("");
@@ -41,6 +42,7 @@ const Home = () => {
 <Subscribe></Subscribe>
 <Membership></Membership>
 <ReviewSection></ReviewSection>
+<FAQ></FAQ>
  <Footer></Footer>
     </div>
   );

@@ -1,9 +1,16 @@
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const Banner = () => {
   AOS.init();
+
+  const [text] = useTypewriter({
+    words: ["Advancement",
+    "Digitalization",
+    "Tech"],
+    loop: 0
+  })
   return (
     <div>
       <div className=" w-full relative  ">
@@ -25,7 +32,7 @@ const Banner = () => {
                   data-aos="fade-left"
                   className="mb-5 lg:text-6xl text-4xl  text-white font-extrabold"
                 >
-              Harmonizing Innovation with Technology
+              Harmonizing Innovation with <span>{text}</span>
                 </h1>
                 <p
                   data-aos-delay="1100"

@@ -9,6 +9,7 @@ import Membership from "../Membership/Membership";
 import Subscribe from "../Subscribe/Subscribe";
 import ReviewSection from "../Review/ReviewSection";
 import FAQ from "../FAQ/FAQ";
+import BannerTwo from "../Bannertwo.jsx/BannerTwo";
 
 const Home = () => {
   const [searchWord, setSearchWord] = useState("");
@@ -37,6 +38,7 @@ const Home = () => {
     <div className=" bg-gradient-to-r from-gray-600 to-blue-500  ">
       <Header></Header>
 <Banner></Banner>
+{/* <BannerTwo></BannerTwo> */}
 <Services></Services>
 <TeamSection></TeamSection>
 <Subscribe></Subscribe>

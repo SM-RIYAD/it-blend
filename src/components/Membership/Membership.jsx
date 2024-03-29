@@ -27,7 +27,7 @@ const Membership = () => {
             <h2 className="card-title ">SILVER</h2>
             <p className="text-4xl"> $11.99</p>
             <div className="card-actions justify-end">
-              <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100">Buy Now</button>
+              <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 hover:text-blue-500 text-gray-100">Buy Now</button>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Membership = () => {
               <h2 className="card-title">GOLD</h2>
               <p className="text-4xl"> $15.99</p>
               <div className="card-actions justify-end">
-                <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100">Buy Now</button>
+                <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100 hover:text-blue-500 ">Buy Now</button>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Membership = () => {
               <h2 className="card-title">PLUTINUM</h2>
               <p className="text-4xl"> $20.99</p>
               <div className="card-actions justify-end">
-                <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100">Buy Now</button>
+                <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100 hover:text-blue-500 ">Buy Now</button>
               </div>
             </div>
           </div>

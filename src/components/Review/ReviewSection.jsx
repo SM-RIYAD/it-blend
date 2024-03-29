@@ -17,7 +17,7 @@ const ReviewSection = () => {
     return (
         <div className=' py-20'> 
        <div className="my-20">
-<h1 className="text-blue-500 mt-10 text-center text-xl "> Voices of Satisfaction</h1>
+<h1 className="text-yellow-500 font-bold mt-10 text-center text-xl "> Voices of Satisfaction</h1>
 
 <h1 className="text-center text-4xl mb-20 "> Discover Client Experiences </h1>
 </div>

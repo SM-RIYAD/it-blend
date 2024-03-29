@@ -5,12 +5,12 @@ const FAQ = () => {
     <div id="faq">
       <div className="lg:max-w-6xl mx-auto my-32 text-blue-600">
       <div className="my-20">
-<h1 className="text-blue-500 mt-10 text-center text-xl "> Frequently Asked Questions</h1>
+<h1 className="text-yellow-500 font-bold mt-10 text-center text-xl "> Frequently Asked Questions</h1>
 
 <h1 className="text-center text-4xl text-black mb-20 ">Answers to Your Inquiries </h1>
 </div>
         <div className="join join-vertical w-full">
-          <div className="collapse collapse-arrow join-item border text-blue-600  ">
+          <div className="collapse collapse-arrow join-item  backdrop-blur-sm bg-black/10 border-2 border-gray-200 text-gray-200  ">
             <input type="radio" name="my-accordion-4" checked="checked" />
             <div className="collapse-title text-xl font-medium">
             How can I contact IT Blend for support?
@@ -21,7 +21,7 @@ const FAQ = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-arrow join-item border border-base-300">
+          <div className="collapse collapse-arrow join-item  backdrop-blur-sm bg-black/10 border-2 border-gray-200 text-gray-200">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl font-medium">
             What services does IT Blend offer?
@@ -33,7 +33,7 @@ const FAQ = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-arrow join-item border border-base-300">
+          <div className="collapse collapse-arrow join-item  backdrop-blur-sm bg-black/10 border-2 border-gray-200 text-gray-200">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl font-medium">
             Is IT Blend suitable for small businesses?
@@ -45,7 +45,7 @@ const FAQ = () => {
             </div>
           </div>
 
-          <div className="collapse collapse-arrow join-item border border-base-300">
+          <div className="collapse collapse-arrow join-item  backdrop-blur-sm bg-black/10 border-2 border-gray-200 text-gray-200">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl font-medium">
             What makes IT Blend different from other IT providers?

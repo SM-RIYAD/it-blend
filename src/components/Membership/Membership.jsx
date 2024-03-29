@@ -8,7 +8,7 @@ const Membership = () => {
   return (
     <div id="packages" className="mx-auto max-w-6xl my-20">
       <div className="my-20">
-        <h1 className="text-blue-500 mt-10 text-center text-xl ">
+        <h1 className="font-bold mt-10 text-center text-xl text-yellow-500 ">
           {" "}
           Get Membership
         </h1>
@@ -21,13 +21,13 @@ const Membership = () => {
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
           data-aos="flip-left"
-          className="card w-94 bg-gradient-to-r from-blue-700 to-blue-300 border bg-opacity-70  border-zinc-200 text-primary-content"
+          className="card w-94 backdrop-blur-sm bg-white/5 shadow-xl border bg-opacity-70 text-gray-200"
         >
           <div className="card-body text-white">
             <h2 className="card-title ">SILVER</h2>
             <p className="text-4xl"> $11.99</p>
             <div className="card-actions justify-end">
-              <button className="btn">Buy Now</button>
+              <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100">Buy Now</button>
             </div>
           </div>
         </div>
@@ -38,13 +38,13 @@ const Membership = () => {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos="flip-left"
-            className="card w-94 bg-gradient-to-r from-blue-700 to-blue-300 border bg-opacity-70   "
+            className="card w-94 backdrop-blur-sm bg-white/5 shadow-xl border bg-opacity-70 text-gray-200  "
           >
             <div className="card-body text-white">
               <h2 className="card-title">GOLD</h2>
               <p className="text-4xl"> $15.99</p>
               <div className="card-actions justify-end">
-                <button className="btn">Buy Now</button>
+                <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100">Buy Now</button>
               </div>
             </div>
           </div>
@@ -55,13 +55,13 @@ const Membership = () => {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos="flip-left"
-            className="card w-94 bg-gradient-to-r from-blue-700 to-blue-400 border bg-opacity-70 text-primary-content"
+            className="card w-94 backdrop-blur-sm bg-white/5 shadow-xl border bg-opacity-70 text-gray-200"
           >
             <div className="card-body text-white">
               <h2 className="card-title">PLUTINUM</h2>
               <p className="text-4xl"> $20.99</p>
               <div className="card-actions justify-end">
-                <button className="btn">Buy Now</button>
+                <button className="btn   backdrop-blur-sm bg-black/10 shadow-xl border bg-opacity-70 text-gray-100">Buy Now</button>
               </div>
             </div>
           </div>

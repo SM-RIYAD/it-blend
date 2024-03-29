@@ -14,7 +14,7 @@ const TeamSection = () => {
     return (
         <div id="team" className='mx-auto lg:max-w-6xl'>
 <div className="my-32">
-<h1 className="text-blue-500 mt-10 text-center text-xl "> Meet Our Team</h1>
+<h1 className="text-yellow-500 font-bold mt-10 text-center text-xl "> Meet Our Team</h1>
 
 <h1 className="text-center text-2xl lg:text-4xl mb-20 "> The driving force behind our IT success  </h1>
 </div>

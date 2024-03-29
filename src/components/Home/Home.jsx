@@ -34,7 +34,7 @@ const Home = () => {
 
   console.log("this is dona data", donations);
   return (
-    <div className="  ">
+    <div className=" bg-gradient-to-r from-gray-600 to-blue-500  ">
       <Header></Header>
 <Banner></Banner>
 <Services></Services>

@@ -4,7 +4,7 @@ const TeamCard = ({image,name,description,exp}) => {
   return (
     <div className="mx-auto">
       <div>
-        <div className="card my-5 w-80 h-96 bg-base-100 shadow-xl ">
+        <div className="card my-5 lg:w-80 w-64 h-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               className="hover:opacity-50 transition duration-300 ease-in-out hover:scale-110  "

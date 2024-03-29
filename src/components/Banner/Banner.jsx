@@ -1,7 +1,7 @@
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+
 const Banner = () => {
   AOS.init();
   return (
@@ -43,14 +43,8 @@ const Banner = () => {
                   data-aos-easing="ease-in-out"
                   className="flex lg:flex-row flex-col"
                 >
-                  {/* <input
-                    type="email"
-                    placeholder="Search a meal"
-                    className="input  mt-5 input-bordered border-none rounded-none "
-                    required
-                  /> */}
-            
-                  <button className="btn mt-5  btn-outline rounded-none hover:bg-red-500 w-[200px] h-[50px]  text-white hover:border-none  ">
+         
+                  <button className="btn mt-5  btn-outline rounded-none hover:bg-blue-500 w-[200px] h-[50px]  text-white hover:border-none  ">
                     Join Us
                   </button>
               
